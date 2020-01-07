@@ -16,7 +16,7 @@ No more ready-made kernels for you. \
 For this task you must run your own kernel. And use `git`! Exciting, isn’t it? No? Oh, ok...
 
 #### Todo
-- Download Linus’s **latest git tree** from [git.kernel.org](git.kernel.org)
+- Download Linus’s **latest git tree** from [git.kernel.org](https://git.kernel.org/)
 > You have to figure out which one is his. It’s not that hard, just remember what his last name is and you should be fine.
 - Build it, install it, and boot it.
 > You can use whatever kernel configuration options you wish to use, \
