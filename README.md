@@ -18,7 +18,7 @@ For this task you must run your own kernel. And use `git`! Exciting, isn’t it?
 #### Todo
 - Download Linus’s **latest git tree** from [git.kernel.org](git.kernel.org)
 > You have to figure out which one is his. It’s not that hard, just remember what his last name is and you should be fine.
-- Build it, install it, and boot it. \
+- Build it, install it, and boot it.
 > You can use whatever kernel configuration options you wish to use, \
 but you must enable `CONFIG_LOCALVERSION_AUTO=y`.
 
@@ -113,9 +113,7 @@ Yeah, you survived the coding style mess! \
 Now, on to some *"real"* things, as I know you are getting bored already.
 
 #### Todo
-Take the kernel module you wrote for *Assignment 01*, and modify it so that **when any USB keyboard is plugged in**, \
-the module will be **automatically loaded by the correct userspace hotplug tools** (which are implemented by \
-`depmod / kmod / udev / mdev / systemd`, depending on what distro you are using.)
+Take the kernel module you wrote for *Assignment 01*, and modify it so that **when any USB keyboard is plugged in**, the module will be **automatically loaded by the correct userspace hotplug tools** (which are implemented by `depmod / kmod / udev / mdev / systemd`, depending on what distro you are using).
 
 #### Turn in
 - A rules file, depending on what system you are using.
@@ -194,7 +192,7 @@ subdirectory called `"fortytwo"`. In that directory, create 3 virtual files call
 the file must be **readable** and **writable** by any user.
 - The file `"jiffies"` is to be **read only by any user**, and when read, should return the \
 current value of the jiffies kernel timer.
-- The file `"foo"` needs to be **writable only by root, but readable by anyone**. \
+- The file `"foo"` needs to be **writable only by root, but readable by anyone**.
 > When writing to it, the value must be stored, up to one page of data. \
 When read, which can be done by any user, the value stored in it must be returned. \
 Properly handle the fact that someone could be reading from the file while someone else is writing to it (oh, a locking hint!)
