@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index e4c2d0327d8c..bfe55428fbe6 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 5
+ PATCHLEVEL = 5
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc5
++EXTRAVERSION = -thor_kernel
+ NAME = Kleptomaniac Octopus
+ 
+ # *DOCUMENTATION*
